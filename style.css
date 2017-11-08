@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Times sans-serif;
+}
+main {
+  display: flex;
+  max-width: 750px;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.section1 p {
+  font-size: 23px;
+  max-width: 550px;
+  align-items: stretch;
+  text-align: justify;
+  text-indent: 30px;
+  padding-left: 30px;
+  font-family: Arial sans-serif;
+}
+
+.pic1 img {
+  height: 265px;
+  width: 201px;
+  border: 4px solid #00aeef;
+}
+
+.pic1 p {
+  width: 201px;
+  padding-left: 0;
+  text-indent: 0;
+  font-size: 16px;
+}
+
+.section2 {
+  float: left;
+  margin-top: 30px;
+}
+.section2 img{
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+
+}
+
+#leftimg1 {
+  float: left;
+  margin: 7px 7px 0 0;
+  border: 2px solid #00aeef;
+}
+
+.section2 p {
+  font-size: 20px;
+  text-align: justify;
+}
+.pic {
+  display: flex;
+  margin-top:15px;
+}
+
+.pic img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #00aeef;
+}
+#smtext {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0;
+  font-family: Arial sans-serif;
+}
+.section2 {
+  margin-bottom: 15px;
+}
+.section3 img{
+  border: 2px solid #00aeef;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 7px 7px 0 0;
+}
+.section3 p{
+  font-size: 23px;
+  text-align: justify;
+}
+.section4 {
+  display: flex;
+  margin-top: 30px;
+}
+.section4 img{
+  border: 2px solid #00aeef;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.section4 p {
+  float: right;
+  font-size: 20px;
+  padding-left: 10px;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin: 20px 5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    margin: 20px 5px;
+    align-items: center;
+  }
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section1 p {
+    padding-left: 0;
+  }
+  .pic img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #00aeef;
+  }
+}
